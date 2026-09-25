@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thói quen học tập hiệu quả | Infographic và Video YouTube</title>
+	<meta name="description" content="Infographic giới thiệu phương pháp học tập hiệu quả kèm video YouTube tham khảo.">
+	<style>
+		:root {
+			--ink: #172033;
+			--muted: #657086;
+			--paper: #fffdf8;
+			--blue: #1769aa;
+			--blue-soft: #e5f3ff;
+			--coral: #ed6a5a;
+			--yellow: #ffd166;
+			--line: #dfe6ee;
+		}
+
+		* { box-sizing: border-box; }
+
+		body {
+			margin: 0;
+			color: var(--ink);
+			font-family: Georgia, "Times New Roman", serif;
+			background: #eef5f8;
+		}
+
+		.page {
+			width: min(1120px, calc(100% - 32px));
+			margin: 32px auto;
+			background: var(--paper);
+			border: 1px solid #e5e1d8;
+			box-shadow: 0 18px 45px rgba(23, 32, 51, 0.12);
+		}
+
+		header {
+			padding: 58px 8%;
+			color: white;
+			background: linear-gradient(120deg, #123b5d, #1769aa 62%, #55a9c9);
+		}
+
+		.eyebrow {
+			margin: 0 0 12px;
+			color: var(--yellow);
+			font: 700 0.82rem/1.2 Arial, sans-serif;
+			letter-spacing: 0.14em;
+			text-transform: uppercase;
+		}
+
+		h1, h2, p { margin-top: 0; }
+		h1 { max-width: 760px; margin-bottom: 16px; font-size: clamp(2.4rem, 6vw, 5rem); line-height: 0.98; }
+		header p { max-width: 650px; margin-bottom: 0; color: #e7f5ff; font: 1.12rem/1.6 Arial, sans-serif; }
+
+		main { padding: 48px 8%; }
+		.section-title { margin-bottom: 28px; font-size: clamp(1.8rem, 3vw, 2.8rem); }
+
+		.stats {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 18px;
+			margin-bottom: 58px;
+		}
+
+		.stat {
+			position: relative;
+			min-height: 190px;
+			padding: 26px;
+			border: 1px solid var(--line);
+			border-top: 7px solid var(--blue);
+			background: white;
+		}
+
+		.stat:nth-child(2) { border-top-color: var(--coral); }
+		.stat:nth-child(3) { border-top-color: #43a047; }
+		.number { display: block; margin-bottom: 10px; color: var(--blue); font-size: 3.6rem; font-weight: 700; line-height: 1; }
+		.stat:nth-child(2) .number { color: var(--coral); }
+		.stat:nth-child(3) .number { color: #31823b; }
+		.stat h3 { margin: 0 0 10px; font-size: 1.3rem; }
+		.stat p { margin-bottom: 0; color: var(--muted); font: 0.95rem/1.5 Arial, sans-serif; }
+
+		.steps {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 28px;
+			margin-bottom: 58px;
+		}
+
+		.step { position: relative; padding-top: 20px; border-top: 2px solid var(--ink); }
+		.step-label { display: inline-block; margin-bottom: 18px; padding: 8px 12px; color: var(--ink); background: var(--yellow); font: 700 0.78rem Arial, sans-serif; text-transform: uppercase; }
+		.step h3 { margin-bottom: 9px; font-size: 1.45rem; }
+		.step p { color: var(--muted); font: 0.98rem/1.6 Arial, sans-serif; }
+
+		.video-section {
+			padding-top: 42px;
+			border-top: 1px solid var(--line);
+		}
+
+		.video-section p { color: var(--muted); font: 1rem/1.6 Arial, sans-serif; }
+		.video-frame { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: #172033; }
+		.video-frame iframe { width: 100%; height: 100%; border: 0; }
+
+		footer { padding: 20px 8%; color: white; background: var(--ink); font: 0.85rem Arial, sans-serif; }
+
+		@media (max-width: 700px) {
+			.page { width: 100%; margin: 0; border: 0; }
+			header, main, footer { padding-left: 6%; padding-right: 6%; }
+			header { padding-top: 42px; padding-bottom: 42px; }
+			.stats, .steps { grid-template-columns: 1fr; }
+			.stat { min-height: auto; }
+		}
+	</style>
+</head>
+<body>
+	<div class="page">
+		<header>
+			<p class="eyebrow">Infographic · Học tập hiệu quả</p>
+			<h1>Biến thời gian học thành kết quả đáng nhớ</h1>
+			<p>Một thói quen nhỏ, một kế hoạch rõ ràng và một chút tập trung có thể thay đổi cách bạn học mỗi ngày.</p>
+		</header>
+
+		<main>
+			<!-- Infographic được dựng trực tiếp bằng HTML/CSS trong file này. -->
+			<section aria-labelledby="overview-title">
+				<h2 id="overview-title" class="section-title">Ba con số cần nhớ</h2>
+				<div class="stats">
+					<article class="stat">
+						<span class="number">25'</span>
+						<h3>Phiên tập trung</h3>
+						<p>Chia thời gian thành các phiên ngắn để duy trì sự tỉnh táo và động lực.</p>
+					</article>
+					<article class="stat">
+						<span class="number">5'</span>
+						<h3>Nghỉ chủ động</h3>
+						<p>Đứng dậy, uống nước hoặc nhìn xa để bộ não có thời gian phục hồi.</p>
+					</article>
+					<article class="stat">
+						<span class="number">3×</span>
+						<h3>Ôn lại kiến thức</h3>
+						<p>Ôn lại theo chu kỳ giúp thông tin được ghi nhớ lâu hơn.</p>
+					</article>
+				</div>
+			</section>
+
+			<section aria-labelledby="steps-title">
+				<h2 id="steps-title" class="section-title">Công thức bắt đầu</h2>
+				<div class="steps">
+					<article class="step">
+						<span class="step-label">Bước 01</span>
+						<h3>Chọn một mục tiêu</h3>
+						<p>Viết ra việc quan trọng nhất cần hoàn thành trong phiên học tiếp theo.</p>
+					</article>
+					<article class="step">
+						<span class="step-label">Bước 02</span>
+						<h3>Loại bỏ xao nhãng</h3>
+						<p>Tắt thông báo, dọn mặt bàn và chuẩn bị sẵn mọi tài liệu cần thiết.</p>
+					</article>
+					<article class="step">
+						<span class="step-label">Bước 03</span>
+						<h3>Đo lại tiến bộ</h3>
+						<p>Cuối buổi, ghi lại điều đã làm được và điều chỉnh kế hoạch cho ngày mai.</p>
+					</article>
+				</div>
+			</section>
+
+			<section class="video-section" aria-labelledby="video-title">
+				<h2 id="video-title" class="section-title">Video tham khảo</h2>
+				<p>Video được nhúng trực tiếp từ YouTube. Bạn có thể thay mã video trong thuộc tính <strong>src</strong> để hiển thị nội dung khác.</p>
+				<div class="video-frame">
+					<!-- Link video gốc: https://www.youtube.com/watch?v=ysz5S6PUM-U -->
+					<iframe
+						src=(https://www.youtube.com/embed/xxx)
+						title="Video YouTube tham khảo"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen>
+					</iframe>
+				</div>
+				<p><a href="https://www.youtube.com/watch?v=ysz5S6PUM-U" target="_blank" rel="noopener noreferrer">Mở video trên YouTube</a></p>
+			</section>
+		</main>
+
+		<footer>
+			<strong>© 2026 Lab 5 · Infographic và video YouTube.</strong><br>
+			Nội dung và mã HTML được tạo với sự hỗ trợ của AI. Video thuộc bản quyền của chủ sở hữu trên YouTube.
+		</footer>
+	</div>
+</body>
+</html>
+Lab5_Ex3.1.html
